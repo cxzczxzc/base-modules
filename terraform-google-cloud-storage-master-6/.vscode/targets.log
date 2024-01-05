@@ -1,0 +1,344 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul 27 17:57:10 2022
+
+# Variables
+
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 18)
+DOCKER_TAG_VERSION_DEVELOPER_TOOLS := 1.4
+# environment
+SK_SIGNING_PLUGIN = gnubbyagent
+# environment
+VSCODE_CWD = /usr/local/google/home/benyan
+# environment
+CHROME_REMOTE_DESKTOP_DEFAULT_DESKTOP_SIZES = 1600x1200,3840x2160,3840x2560,5120x1440,2160x3840
+# environment
+P4MERGE = /google/src/files/head/depot/eng/perforce/mergep4.tcl
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /usr/local/google/home/benyan/Documents/Engagements/terraform-google-cloud-storage
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/
+# makefile (from 'Makefile', line 19)
+DOCKER_IMAGE_DEVELOPER_TOOLS := cft/developer-tools
+# environment
+OLDPWD = /usr/local/google/home/benyan
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+X20_HOME = /google/data/rw/users/be/benyan
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+AUTO_PROXY = https://proxyconfig.corp.google.com/proxy.pac
+# makefile
+CURDIR := /usr/local/google/home/benyan/Documents/Engagements/terraform-google-cloud-storage
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = |/usr/bin/lesspipe %s
+# environment
+RSYNC_RSH = ssh
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/887470/vscode-ssh-auth-sock-845317885
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+P4CONFIG = .p4config
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /usr/local/google/home/benyan/.oh-my-zsh
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/887470/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 16)
+SHELL := /usr/bin/env bash
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 2
+# environment
+PARINIT = rTbgqR B=.?_A_a Q=_s>|:
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/google/home/benyan/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/google/home/benyan/google-cloud-sdk/bin:/usr/lib/google-golang/bin:/usr/local/buildtools/java/jdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+define SSH_AUTH_KEY
+ecdsa-sha2-nistp256-cert-v01@openssh.com AAAAKGVjZHNhLXNoYTItbmlzdHAyNTYtY2VydC12MDFAb3BlbnNzaC5jb20AAAAgzIJdT2HXoQKJ+VnFxR31V4XOawyrCT2EjNinuXCqqFcAAAAIbmlzdHAyNTYAAABBBEkE2NGYLSkwFTrDBBfj5aoPKjf6zkMgGTR6n0ERBYB3euqclMaVbIj6KjwB8R4LrWdq+HkdF2ilDgkTyfiEF/4ZAAAACHCzewAAAAEAAAAWYmVueWFuQGNvcnAuZ29vZ2xlLmNvbQAAABsAAAAGYmVueWFuAAAADWdvb2dsZVxiZW55YW4AAAAAYuFzYAAAAABi4o3MAAAAAAAAAMwAAAAYY2VydC1tZXRhZGF0YUBnb29nbGUuY29tAAAAKgAAACYIARIg1OQ3RBQDnPitpgOhpUMON9nYdTzFrDHHKeniGguzRkAgBgAAABVwZXJtaXQtWDExLWZvcndhcmRpbmcAAAAAAAAAF3Blcm1pdC1hZ2VudC1mb3J3YXJkaW5nAAAAAAAAABZwZXJtaXQtcG9ydC1mb3J3YXJkaW5nAAAAAAAAAApwZXJtaXQtcHR5AAAAAAAAAA5wZXJtaXQtdXNlci1yYwAAAAAAAAAAAAABFwAAAAdzc2gtcnNhAAAAAwEAAQAAAQEAvN0ZS5b1OZYtoJ1PSKY4GIwjis1i4zZZ2MBdN/TEYqJIOVsfAtkDrhC9YGSVuyai/kOXwLLnFc5dVDRWHLDSBzoXEgl4QKCmNu9nneV/cMLEq4d03o1DPOSPQGJDq+wep4K9HuRwvzog6wTDA5Kp0loCnWY8MHTbt4S/O2Ro5mvF0x0ec9vccwW1KOtc/CydQiGmevBZOQOyXt8ZCZKEtSOTIPhAE55WK8agtMEsJlHRtcswSg2BJNJMSeUKgL1An/oCE9bKAME/zXVYVK5Fuv4epqccnd3sQW2T8qniOIcEDI4oybDejm6G8VPw/pxieSPbaFGftuLyR/rHS52OhwAAARQAAAAMcnNhLXNoYTItMjU2AAABACLXOz2udMI/hgS/JIKzTFvm38CcJrBNewW1HXofVsd9Z7Rp/OqfUw0q2IfiTnKj1QDH2M5K9rL6pmpL+X83iNCVXdxqZVPfEIQG19tBQmeiFNznoyOlEoAJBhtyCrK6FPIBq/SKrN6p77c48lNPV9qYsP50xdvoPKOtGyrxfXQSHoHU6GFoeWJOvAiiqhSj2kpwPGQWu2MYdH1qlDv7CU17vVWbh5Eu5CHMe2GG9ifkZWOz6MN2JqUotCIKAPEfG0OgBKHzFN6b2WNb1pRzk0k8iSmpF7w36NMwofzjleq7NLKbHVjactnf3FMP0T9+/rV5LXjRnlcYnNoIJ1kwLdQ=
+
+endef
+# environment
+SSH_CLIENT = 172.253.30.82 65231 22
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /usr/local/google/home/benyan/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
+# environment
+LOGNAME = benyan
+# makefile
+.DEFAULT_GOAL := docker_run
+# environment
+USER = benyan
+# default
+MAKE_VERSION := 4.3
+# environment
+CVS_RSH = ssh
+# environment
+PYTHONPATH = /usr/local/buildtools/current/sitecustomize
+# environment
+PAGER = less
+# environment
+VSCODE_AGENT_FOLDER = /usr/local/google/home/benyan/.vscode-server
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/887470
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/887470/vscode-ipc-acf4b3d1-397c-4195-852f-9df99af8f774.sock
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /usr/local/google/home/benyan
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+XDG_SESSION_ID = c21
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 20)
+REGISTRY_URL := gcr.io/cloud-foundation-cicd
+# environment
+SSH_CONNECTION = 172.253.30.82 65231 192.168.46.108 22
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=2/117=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 65024, inode 656597): 21 files, no impossibilities.
+
+# 21 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+docker_test_lint_gha:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	docker run --rm \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/usr/local/bin/test_lint.sh --markdown --contrib-guide=../blob/master/CONTRIBUTING.md
+
+generate_docs: docker_generate_docs
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 23:10:32.604424431
+#  File has been updated.
+#  Successfully updated.
+
+docker_test_cleanup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	docker run --rm -it \
+		-e SERVICE_ACCOUNT_JSON \
+		-e TF_VAR_org_id \
+		-e TF_VAR_folder_id \
+		-e TF_VAR_billing_account \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/usr/local/bin/execute_with_credentials.sh cleanup_environment
+
+docker_test_lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	docker run --rm -it \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/usr/local/bin/test_lint.sh
+
+docker_run:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	docker run --rm -it \
+		-e SERVICE_ACCOUNT_JSON \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/bin/bash
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+docker_test_integration:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	docker run --rm -it \
+		-e SERVICE_ACCOUNT_JSON \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/usr/local/bin/test_integration.sh
+
+docker_test_prepare:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	docker run --rm -it \
+		-e SERVICE_ACCOUNT_JSON \
+		-e TF_VAR_org_id \
+		-e TF_VAR_folder_id \
+		-e TF_VAR_billing_account \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/usr/local/bin/execute_with_credentials.sh prepare_environment
+
+docker_generate_docs:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	docker run --rm -it \
+		-v $(CURDIR):/workspace \
+		$(REGISTRY_URL)/${DOCKER_IMAGE_DEVELOPER_TOOLS}:${DOCKER_TAG_VERSION_DEVELOPER_TOOLS} \
+		/bin/bash -c 'source /usr/local/bin/task_helper_functions.sh && generate_docs'
+
+.PHONY: docker_run docker_test_prepare docker_test_cleanup docker_test_integration docker_test_lint docker_test_lint_gha docker_generate_docs generate_docs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/47=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 388 B / avg = 11 B
+# current buf: size = 8162 B / used = 388 B / count = 35 / avg = 11 B
+
+# strcache performance: lookups = 71 / hit rate = 50%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=0/71=0%
+# Finished Make data base on Wed Jul 27 17:57:10 2022
+
+ 
